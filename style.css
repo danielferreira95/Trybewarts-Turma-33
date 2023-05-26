@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  box-sizing: border-box;
+
 }
 
 header {
@@ -15,4 +15,8 @@ header {
 
 ul {
   list-style: none;
+}
+
+header div img {
+  width: 80px;
 }
