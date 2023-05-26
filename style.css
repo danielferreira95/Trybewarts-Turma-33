@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 100%;
+  box-sizing: border-box;
 }
 
 header {
@@ -67,9 +68,8 @@ main {
 
 #evaluation-form { 
   display: flex;
-  width: 692px;
+  width: 675px;
   flex-direction: column;
-  border: 2px solid black;
 }
 
 #trybewarts-forms-logo {
@@ -79,4 +79,3 @@ main {
 .trybewarts-login {
   display: flex;
 }
-
