@@ -20,7 +20,7 @@ header {
   border-radius: 20px;
 }
 
-#titulo {
+#trybewarts-header-title {
   color: white;
 }
 
@@ -38,6 +38,7 @@ input {
   border: none;
   color: gray;
   outline-color: gray;
+  margin: 0 10px;
 }
 
 input:hover {
@@ -64,12 +65,18 @@ main {
   display: flex;
 }
 
-.evaluation-form { 
+#evaluation-form { 
   display: flex;
-  width: 675px;
+  width: 692px;
   flex-direction: column;
+  border: 2px solid black;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.trybewarts-login {
+  display: flex;
+}
+
