@@ -1,12 +1,14 @@
 const email = document.getElementById("email");
-const botao = document.getElementById("botao");
+const botao = document.getElementById("btn-submit");
 const senha = document.getElementById("senha");
 
 const valid = () => {
-    if (email.input.value === "tryber@teste.com" && senha.input.value === "123456") {
-    alert("Olá, Tryber!");
+    if (email.innerText == "tryber@teste.com" && senha.innerText == "123456") {
+        console.log('Ola tryber')
+    return alert("Olá, Tryber!");
   } else {
-    alert("Email ou senha inválidos.");
+    console.log('Ola tryber')
+    return alert("Email ou senha inválidos");
   }};
 
 botao.addEventListener("click", valid());
