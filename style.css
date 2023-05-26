@@ -20,7 +20,7 @@ header {
 }
 
 #titulo {
-  color: white;
+  color: black;
 }
 
 header div img {
@@ -35,13 +35,13 @@ header div img {
 input {
   border-radius: 10px;
   border: none;
-  color: black;
+  color: gray;
   outline-color: gray;
 }
 
 input:hover {
+  color: black;
   background-color: gainsboro;
-  outline-color: white;
   transition: 500ms linear; 
 }
 
@@ -56,7 +56,6 @@ input:hover {
   background-color: white;
   text-decoration: underline overline aqua;
   transition: 500ms linear; 
-  width: 80px;
 }
 
 
