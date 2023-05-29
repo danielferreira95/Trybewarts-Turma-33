@@ -17,8 +17,8 @@
     <h1 id='trybewarts-header-title'>Trybewarts</h1>
     <div class="formulario">
       <form action="" method="get" id="form-email" class="trybewarts-login">
-        <input class="login" type="email" placeholder="Email" name="email" id="email" required>
-        <input class="login" type="password" placeholder="Senha" name="password" id="senha" required>
+        <input class="login" type="email" placeholder="Email" name="email" id="email" required  maxlength="30">
+        <input class="login" type="password" placeholder="Senha" name="password" id="senha" required  maxlength="30" minlength="8">
         <button type="submit" id="btn-submit">Entrar</button>
       </form>
     </div>
@@ -32,17 +32,17 @@
         <div class="two-itens-line">
           <div>
             <label for="input-name"></label>
-            <input type="text" placeholder="Nome" id="input-name" required>
+            <input type="text" placeholder="Nome" id="input-name" required maxlength="30">
           </div>
           <div>
             <label for="input-lastname"></label>
-            <input type="text" placeholder="Sobrenome" id="input-lastname" required>
+            <input type="text" placeholder="Sobrenome" id="input-lastname" required maxlength="30">
           </div>
         </div>
         <div class="two-itens-line">
           <div>
             <label for="input-email"></label>
-            <input type="email" placeholder="Email" id="input-email" required>
+            <input type="email" placeholder="Email" id="input-email" required maxlength="30">
           </div>
           <div id="select">
             <span>Casa: </span>
