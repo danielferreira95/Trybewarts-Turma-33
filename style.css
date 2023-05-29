@@ -93,15 +93,9 @@ h2 {
   width: 675px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-self: center;
+  justify-content: center;
 }
 
-#evaluation-form div {
-
-  margin: 0;
-  padding: 0;
-}
-
-#nome-sobrenome {
+.two-itens-line {
   display: flex;
 }
