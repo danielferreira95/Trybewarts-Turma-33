@@ -14,36 +14,54 @@
 <body class="container">
   <header class="header">
     <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="tryberwarts logo">
-    </div>
     <h1 id='trybewarts-header-title'>Trybewarts</h1>
     <div class="formulario">
       <form action="" method="get" id="form-email" class="trybewarts-login">
-        <input type="email" placeholder="Email" name="email" id="email" required>
-        <input type="password" placeholder="Senha" name="password" id="senha" required>
+        <input class="login" type="email" placeholder="Email" name="email" id="email" required>
+        <input class="login" type="password" placeholder="Senha" name="password" id="senha" required>
         <button type="submit" id="btn-submit">Entrar</button>
       </form>
     </div>
   </header>
-<main>
- <form action="" id="evaluation-form">
-   <input type="text" placeholder="nome" id="input-name">
-   <input type="text" placeholder="sobrenome" id="input-lastname">
-   <input type="text" placeholder="email" id="input-email">
- 
- <select name="" id="house">
-  <option value="Gitnória">Gitnória</option>
-  <option value="Reactpuff">Reactpuff</option>
-  <option value="Corvinode">Corvinode</option>
-  <option value="Pytherina">Pytherina</option>
- </select>
- <label for="" id="label-family">Qual sua família?</label>
- <input type="radio" id="radio" name="family" value="Frontend">
- <input type="radio" id="radio" name="family" name="Backend">
- <input type="radio" name="family" value="FullStack">
-</form>
-<img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
-</main>
-
+  <main>
+    <form action="" id="evaluation-form">
+      <div id="main-title">
+        <h2>Formulário de Avaliação</h2>
+      </div>
+      <section class="two-itens-line">
+        <div>
+          <label for="input-name">Nome:</label>
+          <input type="text" placeholder="nome" id="input-name" required>
+        </div>
+        <div>
+          <label for="input-lastname">Sobrenome:</label>
+          <input type="text" placeholder="sobrenome" id="input-lastname" required>
+        </div>
+      </section>
+      <section class="two-itens-line">
+        <div>
+          <label for="input-email"></label>
+          <input type="email" placeholder="email" id="input-email" required>
+        </div>
+        <div>
+          <label for="">Casa:
+            <select name="" id="house">
+              <option value="Gitnória">Gitnória</option>
+              <option value="Reactpuff">Reactpuff</option>
+              <option value="Corvinode">Corvinode</option>
+              <option value="Pytherina">Pytherina</option>
+            </select>
+          </label>
+        </div>
+      </section>
+      <hr>
+      <label for="" id="label-family">Qual sua família?</label>
+      <label for=""><input type="radio" id="radio" name="family" value="Frontend">Frontend</label>
+      <label for=""><input type="radio" id="radio" name="family" name="Backend">Backend</label>
+      <label for=""><input type="radio" name="family" value="FullStack">FullStack</label>
+    </form>
+    <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+  </main>
 </body>
 <script src="script.js"></script>
 </html>
