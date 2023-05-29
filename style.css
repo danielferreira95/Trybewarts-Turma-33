@@ -95,7 +95,7 @@ h2 {
 #evaluation-form { 
   display: flex;
   width: 675px;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -128,4 +128,9 @@ span {
   font-size: 20px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+select, input {
+  border: none;
+  outline: none;
 }
