@@ -71,6 +71,7 @@ input {
 main {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 #trybewarts-forms-logo {
@@ -101,6 +102,7 @@ h2 {
 
 .two-itens-line {
   display: flex;
+  margin: 7px;
 }
 
 #select {
@@ -110,7 +112,7 @@ h2 {
 }
 
 select {
-  width: 18em;
+  width: 16em;
   height: 3em;
   border: none;
   background-color: white;
@@ -118,4 +120,10 @@ select {
 
 #select-default {
   color: gray;
+}
+
+span {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
