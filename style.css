@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  background-color: rgba(50, 167, 145, 0.20) ;
+  background-color: rgba(50, 167, 145, 0.2) ;
   border-radius: 20px;
 }
 
@@ -88,6 +88,7 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  height: 80%;
 }
 
 #trybewarts-forms-logo {
@@ -103,6 +104,8 @@ main {
 .trybewarts-login {
   display: flex;
 }
+
+
 
 #main-title {
   width: 100%;
@@ -204,3 +207,23 @@ hr {
   margin-left: 10px;
   font-size: 18px
 }
+
+textarea {
+  width: 90%;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+#titulo-comentario, textarea {
+  margin: 8px 0 0 10px;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+#div-agreement {
+  margin: 3px 0 0 15px;
+  font-size: 1.1em;
+}
+
