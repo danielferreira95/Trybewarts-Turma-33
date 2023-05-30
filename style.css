@@ -38,7 +38,7 @@ header div img {
   margin: 0 10px;
 }
 
-input {
+.input-text {
   border-radius: 5px;
   height: 3em;
   border: none;
@@ -48,7 +48,7 @@ input {
   width: 20em;
 }
 
-.login:hover {
+.input-text:hover {
   color: black;
   background-color: gainsboro;
   transition: 500ms linear; 
@@ -134,3 +134,30 @@ select, input {
   border: none;
   outline: none;
 }
+
+.family {
+  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+.linha-vertical {
+  height: 130px;
+  border-left: 2px solid rgb(159, 162, 163);
+  margin: 0 20px;
+}
+
+#wrap {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#wrap span {
+  width: 40px;
+  margin: 40px;
+}
+
