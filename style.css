@@ -73,13 +73,14 @@ header div img {
 
 #btn-submit {
   border-style: ridge;
-  background-color: aquamarine;
+  background-color: rgba(0,0,0,0.05);
   border-radius: 10px;
+  color: white;
 }
 
 #btn-submit:hover {
   color: black;
-  background-color: white;
+  background-color: gray;
   transition: 500ms linear; 
 }
 
