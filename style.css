@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  background-color: rgba(50, 167, 145, 0.20) ;
+  background-color: rgba(50, 167, 145, 0.2) ;
   border-radius: 20px;
 }
 
@@ -87,6 +87,7 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  height: 80%;
 }
 
 #trybewarts-forms-logo {
@@ -218,5 +219,10 @@ textarea {
   color: black;
   font-weight: 400;
   font-size: 1.2em;
+}
+
+#div-agreement {
+  margin: 3px 0 0 15px;
+  font-size: 1.1em;
 }
 
