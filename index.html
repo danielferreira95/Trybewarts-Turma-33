@@ -11,40 +11,122 @@
   <title>Vinicius dos Santos e Daniel Ferreira</title>
 </head>
 
-<body class="container">
-  <header class="header">
+<body>
+  <header class="header container">
     <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="tryberwarts logo">
     <h1 id='trybewarts-header-title'>Trybewarts</h1>
     <div class="formulario">
       <form action="" method="get" id="form-email" class="trybewarts-login">
-        <input type="email" placeholder="Email" name="email" id="email" required>
-        <input type="password" placeholder="Senha" name="password" id="senha" required>
+        <input class="login input-text" type="email" placeholder="Email" name="email" id="email" required  maxlength="30">
+        <input class="login input-text" type="password" placeholder="Senha" name="password" id="senha" required  maxlength="43" minlength="8">
         <button type="submit" id="btn-submit">Entrar</button>
       </form>
     </div>
   </header>
-<main>
-  <h2>Formulário de Avaliação</h2>
- <form action="" id="evaluation-form">
-   <input type="text" placeholder="nome" id="input-name">
-   <input type="text" placeholder="sobrenome" id="input-lastname">
-   <input type="text" placeholder="email" id="input-email">
 
-  <label for="">Casa: 
- <select name="" id="house">
-  <option value="Gitnória">Gitnória</option>
-  <option value="Reactpuff">Reactpuff</option>
-  <option value="Corvinode">Corvinode</option>
-  <option value="Pytherina">Pytherina</option>
- </select>
-</label>
- <label for="" id="label-family">Qual sua família?</label>
- <label for=""><input type="radio" id="radio" name="family" value="Frontend">Frontend</label>
- <label for=""><input type="radio" id="radio" name="family" name="Backend">Backend</label>
- <label for=""><input type="radio" name="family" value="FullStack">FullStack</label>
-</form>
-<img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
-</main>
+  <main class="container">
+    <section>
+      <form action="" id="evaluation-form">
+        <div id="main-title">
+          <h2>Formulário de Avaliação</h2>
+        </div>
+        <div class="two-itens-line sepparate">
+          <div id="first-name">
+            <label for="input-name"></label>
+            <input class="input-text" type="text" placeholder="Nome" id="input-name" required maxlength="28">
+          </div>
+          <div>
+            <label for="input-lastname"></label>
+            <input class="input-text" type="text" placeholder="Sobrenome" id="input-lastname" required maxlength="28">
+          </div>
+        </div>
+        <div class="two-itens-line sepparate">
+          <div id="email">
+            <label for="input-email"></label>
+            <input class="input-text" type="email" placeholder="Email" id="input-email" required maxlength="28">
+          </div>
+          <div id="select">
+            <span>Casa: </span>
+            <select name="casa" id="house">
+              <option id="select-default" disabled selected value="">Selecione sua casa</option>
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </div>
+        </div>
+        <hr>
+        <section class="two-itens-line">
+          <div class="family">
+            <div>
+              <h5 id="label-family">Qual sua família?</h5>
+            </div>
+            <div>
+              <input type="radio" id="frontend" name="family" value="Frontend">
+              <label for="frontend">Família FrontEnd</label>
+            </div>
+            <div>
+              <input type="radio" id="backend" name="family" value="Backend">
+              <label for="backend">Família BackEnd</label>
+            </div>
+            <div>
+              <input type="radio" id="fullstack" name="family" value="FullStack">
+              <label for="fullstack">Família FullStack</label>
+            </div>
+          </div>
+          <div class="linha-vertical"></div></div>
+          <div>
+            <h5 id="label-content">Qual conteúdo você está com mais vontade de aprender?</h5>
+            <div class="flex" id="wrap">
+              <span>
+                <input type="checkbox" id="hofs" class="subject" name="content" value="HoFs">
+                <label for="hofs">HoFs</label>
+              </span>
+              <span>
+                <input type="checkbox" id="jest" class="subject" name="content" value="Jest">
+                <label for="jest">Jest</label>
+              </span>
+              <span>
+                <input type="checkbox" id="promises" class="subject" name="content" value="Promises">
+                <label for="promises">Promises</label>
+              </span>
+              <span>
+                <input type="checkbox" id="react" class="subject" name="content" value="React">
+                <label for="react">React</label>
+              </span>
+              <span>
+                <input type="checkbox" id="sql" class="subject" name="content" value="SQL">
+                <label for="sql">SQL</label>
+              </span>
+              <span>
+                <input type="checkbox" id="python" class="subject" name="content" value="Python">
+                <label for="python">Python</label>
+              </span>    
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section for="" id="rating">
+          <label id="label-rate" class="flex">Como você avalia a Trybewarts?</label>
+          <input type="radio" name="rate" value="1"> 1
+          <input type="radio" name="rate" value="1"> 2
+          <input type="radio" name="rate" value="1"> 3
+          <input type="radio" name="rate" value="1"> 4
+          <input type="radio" name="rate" value="1"> 5
+          <input type="radio" name="rate" value="1"> 6
+          <input type="radio" name="rate" value="1"> 7
+          <input type="radio" name="rate" value="1"> 8
+          <input type="radio" name="rate" value="1"> 9
+          <input type="radio" name="rate" value="1"> 10
+        </section>
+      </form>
+    </section>
+    <div class="linha-vertical2"></div>
+    <div id="div-tw-forms-logo">
+      <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+    </div> 
+  </main>
 
 </body>
 <script src="script.js"></script>
