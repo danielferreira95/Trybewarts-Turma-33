@@ -18,7 +18,7 @@
     <div class="formulario">
       <form action="" method="get" id="form-email" class="trybewarts-login">
         <input class="login input-text" type="email" placeholder="Email" name="email" id="email" required  maxlength="30">
-        <input class="login input-text" type="password" placeholder="Senha" name="password" id="senha" required  maxlength="30" minlength="8">
+        <input class="login input-text" type="password" placeholder="Senha" name="password" id="senha" required  maxlength="45" minlength="8">
         <button type="submit" id="btn-submit">Entrar</button>
       </form>
     </div>
@@ -32,17 +32,17 @@
         <div class="two-itens-line">
           <div>
             <label for="input-name"></label>
-            <input class="input-text" type="text" placeholder="Nome" id="input-name" required maxlength="30">
+            <input class="input-text" type="text" placeholder="Nome" id="input-name" required maxlength="28">
           </div>
           <div>
             <label for="input-lastname"></label>
-            <input class="input-text" type="text" placeholder="Sobrenome" id="input-lastname" required maxlength="30">
+            <input class="input-text" type="text" placeholder="Sobrenome" id="input-lastname" required maxlength="28">
           </div>
         </div>
         <div class="two-itens-line">
           <div>
             <label for="input-email"></label>
-            <input class="input-text" type="email" placeholder="Email" id="input-email" required maxlength="30">
+            <input class="input-text" type="email" placeholder="Email" id="input-email" required maxlength="28">
           </div>
           <div id="select">
             <span>Casa: </span>
@@ -76,30 +76,30 @@
           </div>
           <div class="linha-vertical"></div></div>
           <div>
-            <h5>Qual Conteúdo você tem mais vontade de aprender?</h5>
+            <h5 id="label-content">Qual conteúdo você está com mais vontade de aprender?</h5>
             <div class="flex" id="wrap">
               <span>
-                <input type="radio" id="hofs" name="content" value="HoFs">
+                <input type="checkbox" id="hofs" class="subject" name="content" value="HoFs">
                 <label for="hofs">HoFs</label>
               </span>
               <span>
-                <input type="radio" id="jest" name="content" value="Jest">
+                <input type="checkbox" id="jest" class="subject" name="content" value="Jest">
                 <label for="jest">Jest</label>
               </span>
               <span>
-                <input type="radio" id="promises" name="content" value="Promises">
+                <input type="checkbox" id="promises" class="subject" name="content" value="Promises">
                 <label for="promises">Promises</label>
               </span>
               <span>
-                <input type="radio" id="react" name="content" value="React">
+                <input type="checkbox" id="react" class="subject" name="content" value="React">
                 <label for="react">React</label>
               </span>
               <span>
-                <input type="radio" id="sql" name="content" value="SQL">
+                <input type="checkbox" id="sql" class="subject" name="content" value="SQL">
                 <label for="sql">SQL</label>
               </span>
               <span>
-                <input type="radio" id="python" name="content" value="Python">
+                <input type="checkbox" id="python" class="subject" name="content" value="Python">
                 <label for="python">Python</label>
               </span>    
             </div>
