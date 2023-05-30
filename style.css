@@ -205,3 +205,18 @@ hr {
   margin-left: 10px;
   font-size: 18px
 }
+
+textarea {
+  width: 90%;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+#titulo-comentario, textarea {
+  margin: 8px 0 0 10px;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
