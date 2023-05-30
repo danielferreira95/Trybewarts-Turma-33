@@ -14,37 +14,38 @@
 <body class="container">
   <header class="header">
     <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="tryberwarts logo">
-    </div>
-    <div>
-      <h1 id='trybewarts-header-title'>TrybeWarts</h1>
-    </div>
+    <h1 id='trybewarts-header-title'>Trybewarts</h1>
     <div class="formulario">
-      <form action="" method="get" id="form-email">
-        <input type="email" placeholder="E-mail" id="email" required>
-        <input type="password" placeholder="Senha" id="senha" required>
-        <button type="submit" id="btn-submit">Login</button>
+      <form action="" method="get" id="form-email" class="trybewarts-login">
+        <input type="email" placeholder="Email" name="email" id="email" required>
+        <input type="password" placeholder="Senha" name="password" id="senha" required>
+        <button type="submit" id="btn-submit">Entrar</button>
       </form>
     </div>
   </header>
 <main>
+  <h2>Formulário de Avaliação</h2>
  <form action="" id="evaluation-form">
    <input type="text" placeholder="nome" id="input-name">
    <input type="text" placeholder="sobrenome" id="input-lastname">
    <input type="text" placeholder="email" id="input-email">
- </form>
- <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
- <select name="" id="house">  
+
+  <label for="">Casa: 
+ <select name="" id="house">
   <option value="Gitnória">Gitnória</option>
   <option value="Reactpuff">Reactpuff</option>
   <option value="Corvinode">Corvinode</option>
   <option value="Pytherina">Pytherina</option>
  </select>
+</label>
  <label for="" id="label-family">Qual sua família?</label>
- <input type="radio" id="radio" name="family" value="Frontend">
- <input type="radio" id="radio" name="family" name="Backend">
- <input type="radio" name="family" value="FullStack">
+ <label for=""><input type="radio" id="radio" name="family" value="Frontend">Frontend</label>
+ <label for=""><input type="radio" id="radio" name="family" name="Backend">Backend</label>
+ <label for=""><input type="radio" name="family" value="FullStack">FullStack</label>
+</form>
+<img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
 </main>
-<script source="script.js">
-</script>
+
 </body>
+<script src="script.js"></script>
 </html>
