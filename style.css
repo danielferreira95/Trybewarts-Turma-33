@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgb(144, 235, 215), rgb(74, 209, 57));
+  background-image: linear-gradient(rgb(144, 235, 215), rgb(65, 240, 42));
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -20,13 +20,13 @@ body {
 }
 
 .container {
-  background-color: rgba(50, 167, 145, 0.2) ;
+  background-color: rgba(50, 167, 145, 0.17) ;
   border-radius: 20px;
 }
 
 header {
   margin-top: 20px;
-  background-color: rgba(50, 167, 145, 0.2);
+  background-color: rgba(50, 167, 145, 0.17);
   display: flex;
   align-items: center;
   justify-content: space-between;
