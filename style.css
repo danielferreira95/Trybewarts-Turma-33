@@ -4,21 +4,33 @@
 }
 
 body {
-  background-color: rgb(163, 210, 224);
+  background-color: rgb(180, 214, 224);
   text-decoration: none;
   margin: 0;
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  background-color: rgb(50, 167, 145) ;
+  border-radius: 20px;
 }
 
 header {
+  margin-top: 20px;
   background-color: rgb(50, 167, 145);
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  border-radius: 20px;
+  
 }
 
 #trybewarts-header-title {
@@ -45,7 +57,11 @@ header div img {
   color: gray;
   outline-color: gray;
   padding-left: 20px;
-  width: 20em;
+  width: 18em;
+}
+
+.sepparate #first-name, .sepparate #email{
+  margin-right: 60px;
 }
 
 .input-text:hover {
@@ -78,6 +94,12 @@ main {
   height: 500px;
 }
 
+#div-tw-forms-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .trybewarts-login {
   display: flex;
 }
@@ -90,6 +112,7 @@ main {
 
 h2 {
   display:inline-block;
+  margin-top: 10px;
 }
 
 #evaluation-form { 
@@ -112,7 +135,7 @@ h2 {
 }
 
 select {
-  width: 16em;
+  width: 14em;
   height: 3em;
   border: none;
   background-color: white;
@@ -151,8 +174,18 @@ h5 {
 
 .linha-vertical {
   height: 130px;
-  border-left: 2px solid rgb(159, 162, 163);
+  border-left: 1px solid rgb(111, 114, 116);
   margin: 0 20px;
+}
+
+.linha-vertical2 {
+  height: 600px;
+  border-left: 2px solid rgb(111, 114, 116);
+  margin: 20px 20px;
+}
+
+hr {
+  width: 98%;
 }
 
 #wrap {
@@ -165,3 +198,8 @@ h5 {
   margin: 40px;
 }
 
+#label-rate {
+  margin-right: 50px;
+  margin-left: 10px;
+  font-size: 18px
+}
