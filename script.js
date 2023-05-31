@@ -15,10 +15,10 @@ const valid = () => {
 
 const verificaAgreement = () => {
   console.log(document.querySelector('#agreement:checked'));
-  if(document.querySelector('#agreement:checked')){
-  btnEnviar.removeAttribute('disabled');
-  spanSubmit.style.color = 'green';
-  }else{
+  if (document.querySelector('#agreement:checked')) {
+    btnEnviar.removeAttribute('disabled');
+    spanSubmit.style.color = 'green';
+  } else {
     btnEnviar.setAttribute('disabled', 'disabled');
     spanSubmit.style.color = 'red';
   }
@@ -26,7 +26,3 @@ const verificaAgreement = () => {
 
 botao.addEventListener('click', valid);
 checkboxAgreement.addEventListener('click', verificaAgreement);
-
-
-
-
