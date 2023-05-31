@@ -17,10 +17,14 @@
     <h1 id='trybewarts-header-title'>Trybewarts</h1>
     <div class="formulario">
       <form action="" method="get" id="form-email" class="trybewarts-login">
-        <input class="login input-text" type="email" placeholder="Email" name="email" id="email" required
+        <div>
+          <input class="login input-text" type="email" placeholder="Email" name="email" id="email" required
           maxlength="30">
-        <input class="login input-text" type="password" placeholder="Senha" name="password" id="senha" required
+        </div>
+        <div>
+          <input class="login input-text" type="password" placeholder="Senha" name="password" id="senha" required
           maxlength="43" minlength="8">
+        </div>
         <button type="submit" class="btn-submit">Entrar</button>
       </form>
     </div>
@@ -68,7 +72,7 @@
               <input type="radio" id="frontend" name="family" value="Frontend">
               <label for="frontend">Família FrontEnd</label>
             </div>
-            <div>
+            <div>getElementById
               <input type="radio" id="backend" name="family" value="Backend">
               <label for="backend">Família BackEnd</label>
             </div>
