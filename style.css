@@ -88,7 +88,7 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  height: 730px;
+  height: 760px;
 }
 
 #trybewarts-forms-logo {
@@ -183,7 +183,7 @@ h5 {
 }
 
 #linha-vertical2 {
-  height: 690px;
+  height: 710px;
   border-left: 2px solid rgb(111, 114, 116);
   margin: 20px 45px;
 }
