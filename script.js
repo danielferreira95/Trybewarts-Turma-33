@@ -1,5 +1,5 @@
 const email = document.getElementById('email');
-const botao = document.getElementsByClassName('btn-submit');
+const botao = document.querySelector('.btn-submit');
 const senha = document.getElementById('senha');
 
 const valid = () => {
@@ -10,4 +10,4 @@ const valid = () => {
   }
 };
 
-botao[0].addEventListener('click', () => valid);
+botao.addEventListener('click', valid);
