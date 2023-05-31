@@ -127,10 +127,11 @@
           <input type="radio" name="rate" value="1"> 9
           <input type="radio" name="rate" value="1" checked> 10
         </section>
-        <div>
+        <div id="div-text-area">
           <label class="textarea" id="titulo-comentario">Deixe seu comentário:</label>
-          <textarea class="" name="Comentário" id="" cols="20" rows="3" placeholder=" Gostaríamos muito de ouvir você "
-            maxlength="500"></textarea>
+          <textarea class="" name="Comentário" id="" cols="20" rows="3" placeholder=" Gostaríamos muito de ouvir você "maxlength="500">
+          </textarea>
+          <span id="contador-caracteres">500</span>
         </div>
         <div id="div-agreement">
           <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
@@ -148,6 +149,8 @@
       <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
     </div>
   </main>
+
+  <footer>Direitos reservados à Trybewarts©</footer>
 
 </body>
 <script src="script.js"></script>
