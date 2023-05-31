@@ -73,7 +73,7 @@
               <label for="backend">Família BackEnd</label>
             </div>
             <div>
-              <input type="radio" id="fullstack" name="family" value="FullStack">
+              <input type="radio" id="fullstack" name="family" value="FullStack" checked>
               <label for="fullstack">Família FullStack</label>
             </div>
           </div>
@@ -121,7 +121,7 @@
           <input type="radio" name="rate" value="1"> 7
           <input type="radio" name="rate" value="1"> 8
           <input type="radio" name="rate" value="1"> 9
-          <input type="radio" name="rate" value="1"> 10
+          <input type="radio" name="rate" value="1" checked> 10
         </section>
         <div>
           <label class="textarea" id="titulo-comentario">Deixe seu comentário:</label>
@@ -130,15 +130,15 @@
         </div>
         <div id="div-agreement">
           <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
-            <input type="checkbox" id="agreement">
+            <input type="checkbox" id="agreement" required>
           </label>
         </div>
-        <div>
-          <button></button>
+        <div id="div-submit">
+          <button id="form-avaliacao" class="btn-submit">Enviar</button>
         </div>
       </form>
     </section>
-    <div class="linha-vertical2"></div>
+    <div id="linha-vertical2"></div>
     <div id="div-tw-forms-logo">
       <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
     </div>
