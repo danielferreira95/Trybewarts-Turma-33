@@ -8,7 +8,7 @@ body {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  font-size: 100%;  
+  font-size: 100%;
   box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  background-color: rgba(50, 167, 145, 0.2) ;
+  background-color: rgba(50, 167, 145, 0.2);
   border-radius: 20px;
 }
 
@@ -31,7 +31,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  
+
 }
 
 #trybewarts-header-title {
@@ -61,34 +61,34 @@ header div img {
   width: 18em;
 }
 
-.sepparate #first-name, .sepparate #email{
+.sepparate #first-name, .sepparate #email {
   margin-right: 60px;
 }
 
 .input-text:hover {
   color: black;
   background-color: gainsboro;
-  transition: 500ms linear; 
+  transition: 500ms linear;
 }
 
-#btn-submit {
+.btn-submit {
   border-style: ridge;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   color: white;
 }
 
-#btn-submit:hover {
+.btn-submit:hover {
   color: black;
-  background-color: gray;
-  transition: 500ms linear; 
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: 500ms linear;
 }
 
 main {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  height: 80%;
+  height: 730px;
 }
 
 #trybewarts-forms-logo {
@@ -116,10 +116,10 @@ main {
 }
 
 h2 {
-  display:inline-block;
+  display: inline-block;
 }
 
-#evaluation-form { 
+#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
@@ -182,10 +182,10 @@ h5 {
   margin: 0 20px;
 }
 
-.linha-vertical2 {
-  height: 600px;
+#linha-vertical2 {
+  height: 690px;
   border-left: 2px solid rgb(111, 114, 116);
-  margin: 20px 20px;
+  margin: 20px 45px;
 }
 
 hr {
@@ -209,7 +209,7 @@ hr {
 }
 
 textarea {
-  width: 90%;
+  width: 92%;
   border-radius: 5px;
   outline: none;
   padding: 10px;
@@ -227,3 +227,11 @@ textarea {
   font-size: 1.1em;
 }
 
+#div-submit {
+  margin-top: 20px;
+}
+
+#form-avaliacao {
+  margin-left: 10px;
+  width: 92%;
+}
