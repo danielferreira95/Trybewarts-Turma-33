@@ -27,12 +27,11 @@ body {
 
 header {
   margin-top: 20px;
-  background-color: rgba(50, 167, 145, 0.17);
+  background-color: rgba(50, 167, 145);
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
-
 }
 
 #trybewarts-header-title {
