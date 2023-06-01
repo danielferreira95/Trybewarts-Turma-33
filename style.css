@@ -10,13 +10,14 @@ body {
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
-  -webkit-touch-callout: none;
+  height: 100vh;
+
+  /* -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-  height: 100vh;
+  user-select: none; */
 }
 
 .container {
@@ -61,7 +62,11 @@ header div img {
   width: 18em;
 }
 
-.sepparate #first-name, .sepparate #email {
+#first-name {
+  margin-right: 60px;
+}
+
+.sepparate #email {
   margin-right: 60px;
 }
 
@@ -105,8 +110,6 @@ main {
   display: flex;
 }
 
-
-
 #main-title {
   width: 100%;
   height: 50px;
@@ -122,8 +125,7 @@ h2 {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   justify-content: center;
 }
 
@@ -144,7 +146,6 @@ select {
   border: none;
   background-color: white;
   border-radius: 5px;
-  background-color: field;
 }
 
 #select-default {
@@ -157,15 +158,14 @@ span {
   margin-left: 10px;
 }
 
-select, input {
+select , input {
   border: none;
   outline: none;
 }
 
 .family {
   width: 50%;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .family div {
@@ -193,8 +193,7 @@ hr {
 }
 
 #wrap {
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 #wrap span {
@@ -205,7 +204,7 @@ hr {
 #label-rate {
   margin-right: 50px;
   margin-left: 10px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 #div-text-area {
@@ -229,7 +228,7 @@ textarea {
   z-index: 2;
 }
 
-#titulo-comentario, textarea {
+#titulo-comentario , textarea {
   margin: 8px 0 0 10px;
   color: black;
   font-weight: 400;
